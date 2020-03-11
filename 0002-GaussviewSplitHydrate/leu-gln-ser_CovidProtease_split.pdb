@@ -1,0 +1,61 @@
+REMARK   1 File created by GaussView 6.0.16
+ATOM      1  N   LEU A   1       1.431  -1.435 -14.670                       N
+ATOM      2  CA  LEU A   1       0.762  -2.419 -13.790                       C
+ATOM      3  C   LEU A   1       1.817  -3.483 -13.413                       C
+ATOM      4  O   LEU A   1       2.067  -4.461 -14.115                       O
+ATOM      5  HA  LEU A   1       0.443  -1.882 -12.892                       H
+ATOM      6  H   LEU A   1       1.824  -1.938 -15.470                       H
+ATOM      7  CB  LEU A   1      -0.455  -3.022 -14.511                       C
+ATOM      8  HB1 LEU A   1      -1.041  -2.201 -14.949                       H
+ATOM      9  HB2 LEU A   1      -0.127  -3.639 -15.358                       H
+ATOM     10  CG  LEU A   1      -1.433  -3.847 -13.642                       C
+ATOM     11  HG  LEU A   1      -2.302  -4.060 -14.281                       H
+ATOM     12  CD1 LEU A   1      -1.948  -3.070 -12.430                       C
+ATOM     13 HD11 LEU A   1      -2.764  -3.615 -11.944                       H
+ATOM     14 HD12 LEU A   1      -2.332  -2.089 -12.727                       H
+ATOM     15 HD13 LEU A   1      -1.164  -2.921 -11.680                       H
+ATOM     16  CD2 LEU A   1      -0.873  -5.199 -13.204                       C
+ATOM     17 HD21 LEU A   1      -1.667  -5.817 -12.769                       H
+ATOM     18 HD22 LEU A   1      -0.094  -5.094 -12.443                       H
+ATOM     19 HD23 LEU A   1      -0.459  -5.748 -14.056                       H
+ATOM     20  HN  LEU A   1       0.740  -0.795 -15.056                       H
+ATOM     21  N   GLN A   2       2.514  -3.193 -12.261                       N
+ATOM     22  CA  GLN A   2       3.468  -4.132 -11.687                       C
+ATOM     23  C   GLN A   2       2.735  -4.940 -10.593                       C
+ATOM     24  O   GLN A   2       1.741  -4.442 -10.003                       O
+ATOM     25  CB  GLN A   2       4.658  -3.358 -11.107                       C
+ATOM     26  CG  GLN A   2       5.869  -4.242 -10.811                       C
+ATOM     27  CD  GLN A   2       7.091  -3.425 -10.455                       C
+ATOM     28  OE1 GLN A   2       7.099  -2.210 -10.305                       O
+ATOM     29  NE2 GLN A   2       8.226  -4.164 -10.296                       N
+ATOM     30  HA  GLN A   2       3.805  -4.822 -12.469                       H
+ATOM     31  H   GLN A   2       2.125  -2.494 -11.639                       H
+ATOM     32  HB1 GLN A   2       4.358  -2.830 -10.192                       H
+ATOM     33  HB2 GLN A   2       4.955  -2.580 -11.822                       H
+ATOM     34  HG1 GLN A   2       6.110  -4.855 -11.688                       H
+ATOM     35  HG2 GLN A   2       5.662  -4.906  -9.966                       H
+ATOM     36 HE21 GLN A   2       9.066  -3.676 -10.012                       H
+ATOM     37 HE22 GLN A   2       8.226  -5.175 -10.282                       H
+ATOM     38  N   SER A   3       4.490  -8.810  -9.979                       N
+ATOM     39  CA  SER A   3       4.083  -9.606  -8.823                       C
+ATOM     40  C   SER A   3       5.238 -10.559  -8.487                       C
+ATOM     41  O   SER A   3       6.352 -10.465  -8.993                       O
+ATOM     42  HA  SER A   3       3.963  -8.935  -7.963                       H
+ATOM     43  CB  SER A   3       2.791 -10.384  -9.077                       C
+ATOM     44 1HB  SER A   3       1.974  -9.711  -9.357                       H
+ATOM     45 2HB  SER A   3       2.922 -11.125  -9.874                       H
+ATOM     46  OG  SER A   3       2.409 -11.081  -7.881                       O
+ATOM     47  HG  SER A   3       1.491 -11.386  -8.027                       H
+ATOM     48  H   SER A   3       5.309  -9.061 -10.496                       H
+ATOM     49  OXT SER A   3       4.950 -11.482  -7.541                       O
+ATOM     50  HO  SER A   3       3.994 -11.456  -7.281                       H
+TER      51      SER A   3
+HETATM   52  O           0       3.186  -6.253 -10.251                       O
+HETATM   53  H           0       2.748  -6.543  -9.447                       H
+HETATM   54  H           0       3.950  -8.015 -10.254                       H
+END
+CONECT   23   52
+CONECT   38   54
+CONECT   52   53   23
+CONECT   53   52
+CONECT   54   38
