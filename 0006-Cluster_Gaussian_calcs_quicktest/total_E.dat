@@ -1,0 +1,12 @@
+cluster-tetrad-h.log: SCF Done:  E(RB3LYP) =  -1650.62965029     A.U. after   15 cycles
+cluster-tetrad-h_plus_lig-h.log: SCF Done:  E(RB3LYP) =  -5101.91374582     A.U. after   18 cycles
+lig-h.log: SCF Done:  E(RB3LYP) =  -3451.28084057     A.U. after   18 cycles
+
+
+OK, back of the envelope binding energy calculation:
+-5101.91374582+3451.28084057+1650.62965029
+= -.00325496 Hartree
+
+-.00325496*27.211
+= -.08857071656 eV = 89 meV binding energy
+

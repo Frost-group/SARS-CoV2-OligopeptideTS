@@ -1,0 +1,4 @@
+%mem=100GB
+%nprocshared=20
+#p sp b3lyp/6-31g*
+
