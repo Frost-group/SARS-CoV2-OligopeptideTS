@@ -17,3 +17,8 @@ obabel cluster-tetrad-h.pdb -ogau -O cluster-tetrad-h.com
 # Cluster failed, as both the PDBs and COMs ended up 4 copies of each atom, overlapping! Must have screwed up the Pymol cluster extraction. 
 # To be fixed another day!
 
+# OK - 2020-03-22, it appears that this is the usual Babel nonsense corrupting things.
+# The Pymol PDBs, both before and after Hydrogen addition seem absolutely AOK
+#
+# .'. need a non babel route to go PDB -> XYZ / COM file
+
