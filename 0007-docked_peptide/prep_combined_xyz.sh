@@ -2,8 +2,10 @@
 
 obabel cluster-dyad-h.pdb -O cluster-dyad-h.xyz
 obabel cluster-tetrad-h.pdb -O cluster-tetrad-h.xyz
-# just first docked pose
-obabel -l 1 leu_gln_ser_CovidProtease_out.pdbqt -O leu_gln_ser_CovidProtease_out.xyz
+# `-l 1` just first docked pose
+# `-h` add some hydrogens
+obabel -h -l 1 leu_gln_ser_CovidProtease_out.pdbqt -O leu_gln_ser_CovidProtease_out.xyz
+# still being rubbish. Needed to add hydrogens in Avogadro.
 
 # OK, .xyz files with some cruft, but ready for splicing with Gaussian .com goodness
 #
