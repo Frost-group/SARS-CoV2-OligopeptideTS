@@ -1,0 +1,4 @@
+remove not alt ''+A
+alter all, alt=''
+
+remove hetatm
