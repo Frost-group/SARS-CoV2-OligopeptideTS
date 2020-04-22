@@ -1,0 +1,1 @@
+obabel Apo_Mpro_6YB7_MolProbity_hydrogens_clean.xyz -O Apo_Mpro_6YB7_MolProbity_hydrogens_clean_babel_pK.xyz -p
