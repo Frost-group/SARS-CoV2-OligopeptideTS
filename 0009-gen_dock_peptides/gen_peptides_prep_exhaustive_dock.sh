@@ -4,7 +4,8 @@
 # Dock these structures exhaustively (based on suggestions in 10.1093/bib/bbv008 )
 # To get a load of representative poses for finding the substrate transition state
 
-PEPTIDES="LQS STC"
+# This substrate specificity extracted from Fig1 in 10.1021/bi0621415 
+PEPTIDES="LQS KLQS TKLQS AVLHS LHS VLHS"
 
 for PEPTIDE in ${PEPTIDES}
 do
@@ -21,7 +22,7 @@ done
 for PEPTIDE in ${PEPTIDES}
 do
     obabel "${PEPTIDE}-mmff94.pdb" -O "${PEPTIDE}-mmff94.pdbqt"
-    vina --config vina_Apo_Mpro_6YB7.conf --seed 31337 --exhaustiveness 1024 --num_modes 100 --ligand  "${PEPTIDE}-mmff94.pdbqt"
+    vina --config vina_Apo_Mpro_6YB7.conf --seed 31337 --exhaustiveness 200 --num_modes 100 --ligand  "${PEPTIDE}-mmff94.pdbqt"
 done
 
 
