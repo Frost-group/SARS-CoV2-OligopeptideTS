@@ -4,8 +4,16 @@
 # Dock these structures exhaustively (based on suggestions in 10.1093/bib/bbv008 )
 # To get a load of representative poses for finding the substrate transition state
 
-# This substrate specificity extracted from Fig1 in 10.1021/bi0621415 
-PEPTIDES="LQS KLQS TKLQS AVLHS LHS VLHS"
+# This substrate specificity extracted by hand from Fig1 in 10.1021/bi0621415 
+# roundA
+#PEPTIDES="LQS KLQS TKLQS AVLHS LHS VLHS"
+
+# via ZCURVE_CoV run on the Wuhan SARS-CoV-2 FASTA sequence, ignoring first three (Papain like protease?)
+#PEPTIDES="AVLQSGFR VTFQSAVK ATVQSKMS ATLQAIAS VKLQNNEL VRLQAGNA PMLQSADA TVLQAVGA ATLQAENV TRLQSLEN PKLQSSQA"
+PEPTIDES="VLQSGF TFQSAV TVQSKM TLQAIA KLQNNE RLQAGN MLQSAD VLQAVG TLQAEN RLQSLE KLQSSQ"
+#PEPTIDES="LQSG FQSA VQSK LQAI LQNN LQAG LQSA LQAV LQAE LQSL LQSS"
+
+
 
 for PEPTIDE in ${PEPTIDES}
 do
