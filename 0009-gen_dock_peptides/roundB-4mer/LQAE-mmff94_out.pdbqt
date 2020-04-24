@@ -1,0 +1,2000 @@
+MODEL 1
+REMARK VINA RESULT:      -6.7      0.000      0.000
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.472   0.397  21.213  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.417  -0.547  21.980  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       8.678  -1.680  21.573  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.913  -0.044  23.154  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       8.669   0.892  23.473  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       9.744  -0.822  24.067  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3      10.378   0.062  25.132  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       8.837  -1.886  24.711  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       8.982  -3.150  24.203  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       9.645  -3.341  23.459  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       8.063  -1.603  25.625  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       8.171  -4.282  24.647  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       9.133  -5.304  25.247  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4      10.360  -5.206  25.190  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.395  -4.890  23.480  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       6.175  -4.057  23.093  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       5.897  -4.008  21.589  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       5.964  -5.134  21.021  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       5.656  -2.871  21.103  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       6.864   2.724  21.845  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.813   1.752  21.645  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.801   1.956  21.759  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       5.659   2.519  21.707  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.430   4.103  22.257  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       6.443   5.151  21.923  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       6.044   5.491  22.802  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       6.972   5.960  21.584  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.753   4.097  23.760  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       9.206   4.464  24.123  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1      10.164   3.421  23.539  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       9.596   5.858  23.630  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.650   0.261  19.695  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.363  -0.108  18.959  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.814   1.098  18.232  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.235   1.481  17.147  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       4.754   1.708  18.836  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.599   1.614  19.832  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.444   2.571  18.410  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.7      2.424      4.478
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       6.811  -1.021  21.459  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.170  -2.394  21.177  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.451  -2.589  20.196  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.434  -3.360  22.111  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.021  -3.167  22.921  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       5.839  -4.692  22.071  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       6.747  -5.687  21.361  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       5.593  -5.124  23.528  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       5.861  -4.162  24.467  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.196  -3.245  24.193  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       5.168  -6.246  23.803  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       5.742  -4.401  25.904  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.761  -3.362  26.441  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       4.554  -3.170  27.641  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.099  -4.272  26.594  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       8.029  -5.441  26.277  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       9.145  -5.107  25.286  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4      10.301  -5.131  25.794  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       8.785  -4.834  24.110  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       7.723  -1.220  23.763  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.900  -1.268  22.402  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.816  -1.445  22.001  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       6.633  -1.000  24.287  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       9.007  -1.466  24.589  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1      10.058  -2.008  23.703  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       9.702  -1.970  22.744  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1      10.819  -1.323  23.691  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       9.453  -0.150  25.248  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       9.418   1.091  24.332  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       8.583   2.194  24.988  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1      10.817   1.620  24.014  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.352  -0.379  20.174  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.486   0.763  19.649  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       6.115   0.516  18.206  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.264   1.349  17.319  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.658  -0.739  17.929  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       5.246  -1.313  18.653  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       5.315  -0.882  16.988  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.6      2.981      5.254
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       9.820  -0.648  24.791  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.834  -0.671  25.974  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.219  -0.643  27.143  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       7.512  -0.757  25.626  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.223  -0.792  24.650  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.437  -0.889  26.604  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.400   0.215  26.444  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       5.796  -2.272  26.390  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.390  -3.295  27.082  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.190  -3.123  27.682  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       4.813  -2.421  25.664  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       5.961  -4.687  26.966  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       5.814  -5.222  28.388  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       6.659  -5.923  28.947  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       6.979  -5.511  26.180  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       8.375  -4.892  26.206  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       8.808  -4.258  24.883  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4      10.043  -4.368  24.644  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       7.903  -3.695  24.211  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       9.524  -1.451  22.456  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       9.017  -0.863  23.588  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.061  -0.520  23.615  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1      10.678  -1.870  22.381  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       8.528  -1.547  21.277  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.207  -1.965  21.791  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       7.304  -2.122  22.798  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       6.597  -1.143  21.746  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       8.447  -0.189  20.562  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       7.020   0.304  20.243  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       6.731   1.589  21.023  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       6.808   0.547  18.748  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2      10.564   0.691  24.704  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       9.700   1.838  24.184  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2      10.471   2.657  23.177  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2      11.275   3.528  23.488  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      10.267   2.317  21.871  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       9.419   1.846  21.584  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      10.701   2.923  21.188  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.5      2.449      5.222
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       9.495  -0.973  23.273  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       9.587  -2.340  23.976  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2      10.546  -3.095  23.810  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.514  -2.662  24.764  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.727  -2.024  24.872  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       8.373  -3.951  25.432  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       7.347  -3.887  26.556  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       7.946  -4.972  24.362  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.669  -4.812  23.890  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.074  -4.068  24.238  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       8.716  -5.846  23.963  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       6.065  -5.716  22.913  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       6.477  -5.211  21.534  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       5.806  -4.424  20.863  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       4.543  -5.733  23.052  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       4.089  -5.670  24.508  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       4.420  -6.919  25.327  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       3.696  -7.916  25.051  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       5.345  -6.801  26.174  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.264  -0.300  21.220  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.358  -1.063  22.357  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       7.612  -1.700  22.621  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       9.140   0.490  20.871  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       6.964  -0.509  20.408  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       6.071  -1.423  21.151  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       6.550  -1.687  22.016  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       5.284  -0.860  21.489  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       6.292   0.849  20.155  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       5.307   0.886  18.969  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       4.179   1.879  19.265  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       5.992   1.259  17.653  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       9.279   0.165  24.280  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2      10.418   1.182  24.306  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       9.951   2.501  23.736  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       9.373   3.356  24.397  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      10.280   2.719  22.430  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2      10.465   1.945  21.805  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       9.887   3.553  22.013  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.5      2.434      4.499
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       6.661  -0.942  21.115  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.136  -2.376  20.906  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.427  -2.676  19.944  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.490  -3.272  21.879  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.067  -2.992  22.670  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.010  -4.649  21.907  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       7.119  -5.618  22.295  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       4.856  -4.708  22.925  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       5.086  -4.033  24.095  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       5.960  -3.541  24.251  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       3.809  -5.305  22.677  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       4.134  -4.019  25.204  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.132  -2.599  25.763  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       4.798  -1.675  25.292  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       4.534  -5.025  26.282  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       5.948  -5.564  26.082  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.961  -5.076  27.119  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       7.245  -3.850  27.017  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       7.398  -5.942  27.923  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       7.267  -0.035  23.349  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.431  -0.970  22.358  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.129  -1.704  22.443  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       6.441   0.873  23.280  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       8.207  -0.211  24.565  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.896  -1.491  25.236  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       8.554  -2.191  24.885  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       8.173  -1.388  26.217  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       9.669  -0.166  24.094  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1      10.204   1.235  23.737  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1      10.123   1.449  22.223  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       9.446   2.350  24.458  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.548  -0.491  19.947  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       7.064   0.791  19.272  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.886   0.495  18.375  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       5.876  -0.411  17.550  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       4.783   1.269  18.588  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.865   2.182  19.017  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.027   1.146  17.928  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.5      2.324      6.663
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       6.363  -2.609  23.694  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.009  -1.464  24.663  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       4.863  -1.298  25.084  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       7.050  -0.636  24.988  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.984  -0.789  24.613  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.891   0.559  25.811  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       7.415   0.335  27.223  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       7.665   1.694  25.116  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       8.012   1.443  23.815  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.765   0.566  23.369  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       7.923   2.747  25.700  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       8.796   2.376  23.008  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       7.854   2.937  21.946  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       7.289   4.028  22.039  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       9.986   1.671  22.358  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       9.663   0.236  21.950  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4      10.240  -0.830  22.883  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4      10.700  -1.840  22.280  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4      10.173  -0.588  24.117  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       5.979  -2.713  21.240  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       6.376  -2.019  22.356  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       6.730  -1.070  22.283  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       5.554  -3.866  21.286  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       6.110  -1.929  19.913  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       5.361  -2.639  18.855  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       5.774  -3.570  18.758  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       4.431  -2.841  19.233  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       5.583  -0.498  20.108  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       6.353   0.598  19.343  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       7.764   0.104  19.014  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       5.640   1.020  18.057  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.732  -3.221  24.022  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       7.697  -4.737  24.203  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       8.781  -5.173  25.159  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       9.978  -5.040  24.929  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       8.341  -5.673  26.349  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       7.413  -6.069  26.435  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       9.055  -6.059  26.954  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.5      2.187      3.307
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       8.119  -0.300  21.817  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.898  -1.425  22.524  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.994  -1.813  22.117  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.268  -1.976  23.607  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.355  -1.645  23.913  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       8.801  -3.116  24.346  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       8.581  -2.961  25.845  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       8.087  -4.374  23.818  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.807  -4.166  23.374  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.389  -3.242  23.402  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       8.649  -5.468  23.789  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       5.950  -5.246  22.888  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       6.070  -5.251  21.367  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       5.807  -4.281  20.655  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       4.500  -5.027  23.317  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       4.296  -5.237  24.815  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       4.759  -6.601  25.330  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       5.697  -6.536  26.173  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       4.175  -7.608  24.847  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.395   1.576  23.425  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.735   0.954  22.250  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       9.412   1.369  21.616  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       7.574   1.111  24.214  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       9.127   2.914  23.681  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1      10.112   3.142  22.603  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1      10.702   2.308  22.544  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       9.596   3.120  21.719  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       8.100   4.056  23.752  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       7.341   4.343  22.441  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       5.884   3.892  22.577  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       7.391   5.820  22.050  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       8.197  -0.434  20.290  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       7.178   0.429  19.548  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       6.175  -0.447  18.834  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       5.992  -0.413  17.623  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.520  -1.345  19.624  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       5.423  -1.188  20.619  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.778  -1.865  19.174  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.5      2.193      4.656
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       9.474  -0.322  24.319  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.725  -0.733  25.601  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.285  -0.775  26.697  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       7.411  -1.074  25.422  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       6.977  -1.043  24.501  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.565  -1.583  26.497  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.149  -1.033  26.399  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       6.563  -3.118  26.385  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       7.392  -3.627  25.420  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.953  -3.014  24.839  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       5.874  -3.816  27.130  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       7.485  -5.056  25.126  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       8.936  -5.460  25.367  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       9.903  -4.855  24.901  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.074  -5.345  23.683  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       7.326  -4.158  22.755  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.083  -3.321  22.451  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       5.298  -3.858  21.619  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       6.000  -2.210  23.038  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.612  -0.165  21.992  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.444   0.026  23.341  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       7.597   0.453  23.707  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       9.625  -0.670  21.511  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.425   0.308  21.121  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.059   1.687  21.508  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       6.294   1.623  22.185  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       7.832   2.053  22.070  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.814   0.227  19.636  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       6.684  -0.212  18.682  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       5.711  -1.133  19.422  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       5.925   0.976  18.092  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2      10.400   0.876  24.567  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       9.767   2.221  24.217  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2      10.566   2.908  23.134  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2      11.427   3.749  23.361  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      10.315   2.477  21.864  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       9.435   2.037  21.629  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      10.772   2.998  21.127  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -6.5      2.441      3.919
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.276  -1.660  22.560  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       7.623  -3.144  22.787  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       7.360  -4.009  21.951  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.211  -3.425  23.991  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       8.405  -2.691  24.670  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       8.524  -4.782  24.429  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       9.798  -4.819  25.262  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       7.321  -5.283  25.250  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.111  -5.191  24.614  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.043  -4.817  23.673  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       7.463  -5.744  26.382  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       4.849  -5.564  25.250  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.175  -6.575  24.328  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       3.871  -7.719  24.670  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       3.958  -4.340  25.457  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       4.474  -3.110  24.714  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       5.070  -2.031  25.620  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       4.268  -1.094  25.894  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       6.272  -2.191  25.963  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       7.557   0.250  24.127  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.029  -0.909  23.564  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.947  -1.270  23.806  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       6.455   0.724  23.854  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       8.521   0.918  25.135  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       8.476   0.175  26.413  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       7.638  -0.411  26.399  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       9.236  -0.511  26.384  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       9.942   0.940  24.549  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1      10.274   2.165  23.673  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1      10.110   1.802  22.194  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       9.403   3.375  24.008  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.664  -1.200  21.148  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.681  -0.203  20.539  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       6.710  -0.297  19.031  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       7.584   0.213  18.340  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.723  -1.057  18.477  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.853  -1.218  18.968  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       5.676  -1.044  17.466  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -6.5      1.660      2.971
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.463   0.219  21.247  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.383  -0.765  21.995  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.305  -1.353  21.429  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.077  -0.956  23.316  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.299  -0.466  23.755  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       8.769  -1.921  24.164  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       8.751  -1.492  25.625  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       8.059  -3.275  23.985  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.693  -3.227  24.087  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.214  -2.351  24.267  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       8.689  -4.305  23.749  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       5.849  -4.417  24.002  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.821  -4.148  22.906  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       3.783  -4.797  22.765  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       5.158  -4.694  25.336  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       5.878  -5.762  26.155  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.792  -5.208  27.250  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       6.883  -3.948  27.248  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       7.349  -6.057  27.996  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       6.861   2.561  21.825  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.786   1.549  21.764  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.748   1.703  22.050  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       5.689   2.417  21.480  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.409   3.904  22.362  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       6.599   5.012  21.812  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       5.697   5.003  22.295  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       7.025   5.884  22.141  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.376   3.895  23.898  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       8.751   3.774  24.586  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       9.127   2.297  24.732  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       9.851   4.515  23.825  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.696   0.166  19.731  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.463  -0.259  18.937  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.872   0.930  18.215  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.332   1.384  17.174  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       4.731   1.437  18.765  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.519   1.294  19.744  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.385   2.291  18.347  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:      -6.4      2.401      4.991
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.302  -1.750  22.124  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.323  -2.886  21.770  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.543  -2.802  20.820  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.366  -3.971  22.605  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.012  -4.008  23.391  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       5.450  -5.101  22.491  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.939  -6.114  21.465  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       5.348  -5.746  23.886  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       5.979  -5.055  24.887  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.468  -4.187  24.694  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       4.726  -6.792  24.067  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       6.041  -5.535  26.266  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       5.000  -4.744  27.053  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       5.280  -3.899  27.905  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.436  -5.329  26.855  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       8.274  -4.345  26.042  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       9.220  -5.003  25.036  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4      10.387  -5.190  25.480  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       8.737  -5.258  23.900  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       7.165   0.216  20.609  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       6.673  -0.514  21.662  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       5.862  -0.195  22.184  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       8.149  -0.131  19.958  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       6.384   1.516  20.304  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       5.073   1.166  19.716  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       4.605   0.529  20.366  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       4.492   2.009  19.765  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       6.220   2.332  21.596  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       7.465   3.129  22.035  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       7.078   4.585  22.304  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       8.130   2.532  23.276  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.564  -1.683  23.635  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.667  -0.688  24.367  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.642  -1.423  25.199  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       4.808  -2.184  24.724  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.745  -1.238  26.546  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       6.194  -0.414  26.925  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       5.005  -1.645  27.102  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:      -6.4      1.449      2.723
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.665   0.556  21.282  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.787  -0.154  22.064  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.876  -0.413  21.551  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.468  -0.498  23.351  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.554  -0.283  23.745  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       9.361  -1.262  24.216  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       9.190  -0.871  25.678  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       9.031  -2.751  24.009  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       7.748  -3.006  23.601  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.088  -2.249  23.455  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       9.878  -3.628  24.184  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       7.231  -4.358  23.406  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       6.521  -4.366  22.054  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       5.296  -4.379  21.923  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       6.265  -4.742  24.526  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       6.974  -5.400  25.708  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.969  -4.564  26.990  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       6.954  -3.318  26.786  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       6.999  -5.205  28.074  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       6.775   2.803  21.865  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.830   1.985  21.544  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.769   2.360  21.442  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       5.623   2.390  21.988  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.149   4.291  22.061  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       5.925   5.061  22.371  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       5.198   4.390  22.632  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       6.102   5.559  23.249  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       8.189   4.416  23.186  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       7.699   3.998  24.587  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       8.459   2.751  25.049  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       7.861   5.115  25.618  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.764   0.275  19.776  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.431  -0.106  19.137  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.868   1.065  18.367  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.271   1.401  17.259  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       4.816   1.700  18.959  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.676   1.650  19.960  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.498   2.543  18.500  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:      -6.4      2.190      7.281
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       8.786  -3.062  24.073  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       9.037  -1.683  24.711  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       8.655  -1.413  25.851  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       9.683  -0.781  23.908  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       9.976  -1.027  22.965  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       9.924   0.605  24.298  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3      11.399   0.857  24.578  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       9.429   1.494  23.143  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       8.371   0.985  22.437  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.964   0.088  22.681  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       9.948   2.584  22.903  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       7.797   1.656  21.272  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       6.506   2.322  21.740  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       6.467   3.398  22.338  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.517   0.659  20.149  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       6.193   0.934  19.440  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.151   0.473  17.982  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       6.253   1.414  17.147  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       6.002  -0.764  17.792  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.117  -5.056  25.400  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.883  -3.770  24.979  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       7.043  -3.273  25.262  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       9.116  -5.694  25.073  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.022  -5.643  26.320  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.572  -5.813  27.682  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       6.925  -6.409  28.204  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       8.406  -6.402  27.594  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       5.799  -4.712  26.323  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       4.489  -5.343  25.808  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       4.179  -4.816  24.404  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       4.547  -6.870  25.786  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       8.152  -2.932  22.682  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.668  -2.570  22.718  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.973  -3.098  21.485  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       5.736  -4.287  21.300  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.553  -2.148  20.602  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       5.990  -1.236  20.573  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       5.175  -2.496  19.730  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:      -6.4      2.322      7.346
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.556  -3.329  22.442  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.351  -2.129  21.894  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       9.565  -2.017  22.070  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       7.604  -1.191  21.232  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       6.599  -1.303  21.113  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       8.160   0.060  20.728  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       7.312   0.633  19.601  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       8.222   1.040  21.914  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       9.455   1.155  22.502  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4      10.248   0.623  22.160  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       7.232   1.674  22.277  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       9.700   1.992  23.675  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4      10.322   3.290  23.166  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4      11.508   3.586  23.316  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4      10.635   1.293  24.660  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4      10.292  -0.183  24.844  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       9.007  -0.438  25.636  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       9.196  -0.610  26.872  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       7.937  -0.463  24.970  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.215  -4.318  24.625  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.694  -3.278  23.896  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       7.351  -2.439  24.355  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       8.632  -5.353  24.108  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       8.236  -4.088  26.154  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.319  -2.978  26.490  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       7.834  -2.321  27.082  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       7.172  -2.443  25.629  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.834  -5.384  26.875  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       6.358  -5.463  27.316  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       5.539  -6.199  26.252  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       6.189  -6.155  28.669  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       6.075  -3.253  22.044  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       5.298  -4.535  22.332  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.871  -5.683  21.535  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       5.969  -5.675  20.314  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       6.346  -6.726  22.276  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       6.009  -6.892  23.215  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       6.640  -7.539  21.750  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:      -6.4      2.248      4.916
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.275  -1.749  22.092  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.313  -2.895  21.725  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.537  -2.815  20.772  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.365  -3.985  22.554  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.007  -4.018  23.344  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       5.464  -5.126  22.428  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.993  -6.145  21.429  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       5.329  -5.754  23.827  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       5.971  -5.074  24.828  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.488  -4.223  24.633  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       4.673  -6.780  24.011  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       6.004  -5.543  26.212  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.975  -4.719  26.981  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       3.861  -5.138  27.301  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.397  -5.369  26.815  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       8.257  -4.386  26.025  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       9.213  -5.046  25.028  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4      10.391  -5.180  25.463  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       8.726  -5.354  23.907  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       7.155   0.273  20.650  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       6.629  -0.517  21.642  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       5.777  -0.249  22.126  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       8.188  -0.013  20.047  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       6.346   1.555  20.349  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       5.024   1.178  19.806  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       4.725   0.327  20.287  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       4.354   1.877  20.141  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       6.206   2.388  21.634  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       7.478   3.143  22.071  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       7.158   4.628  22.263  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       8.081   2.573  23.356  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.535  -1.694  23.604  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       8.821  -0.960  23.976  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       9.942  -1.368  23.049  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2      10.426  -2.493  23.029  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      10.346  -0.408  22.168  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2      10.194   0.573  22.363  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      11.160  -0.638  21.612  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:      -6.4      2.368      7.303
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.335  -1.287  25.954  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.210  -0.546  25.207  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.063  -0.990  25.150  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.590   0.617  24.590  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.550   0.953  24.642  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       5.692   1.406  23.754  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.220   2.662  24.474  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       6.466   1.771  22.474  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       6.326   0.881  21.442  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       5.748   0.053  21.542  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       7.139   2.799  22.400  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       7.026   1.025  20.167  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       5.965   0.957  19.073  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       6.208   0.679  17.897  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       8.064  -0.081  19.985  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       9.180  -0.012  21.023  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       9.273  -1.239  21.932  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       8.152  -1.675  22.317  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4      10.434  -1.650  22.198  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.015  -3.616  25.411  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.829  -2.309  25.033  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.065  -1.998  24.095  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       7.750  -4.028  26.538  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       8.587  -4.532  24.304  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       9.637  -5.395  24.885  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1      10.203  -4.815  25.509  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       9.170  -6.038  25.532  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.451  -5.367  23.691  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       6.765  -4.743  22.459  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       6.602  -5.803  21.366  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       5.404  -4.134  22.796  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       8.470  -0.333  26.352  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       9.728  -0.493  25.501  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2      10.043   0.801  24.787  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       9.296   1.772  24.789  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      11.266   0.850  24.184  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2      11.744   0.001  23.909  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      11.444   1.672  23.622  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:      -6.4      2.912      4.850
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.018  -0.766  21.486  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.387  -2.157  21.285  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       5.535  -2.367  20.421  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.820  -3.122  22.155  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       7.516  -2.916  22.869  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.269  -4.473  22.185  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       7.299  -5.484  22.670  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       5.049  -4.445  23.125  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       5.282  -3.887  24.354  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       6.199  -3.528  24.599  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       3.954  -4.879  22.769  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       4.265  -3.821  25.402  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       4.502  -2.519  26.162  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       4.135  -1.414  25.761  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       4.366  -5.022  26.340  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       5.373  -4.801  27.466  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.617  -5.687  27.382  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       7.070  -5.821  26.211  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       7.024  -6.183  28.467  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.554   0.025  23.275  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.134  -0.957  22.411  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.616  -1.850  22.363  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       8.003   1.121  23.357  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       9.778  -0.357  24.140  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1      10.886   0.578  23.850  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1      11.292   0.861  24.746  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1      11.636   0.027  23.422  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       9.388  -0.321  25.626  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       8.049  -1.003  25.974  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       8.289  -2.484  26.280  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       7.346  -0.337  27.156  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.518  -0.177  20.160  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.620   0.925  19.603  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       6.218   0.603  18.183  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.416   1.357  17.238  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       5.672  -0.633  17.999  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       5.228  -1.124  18.765  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       5.310  -0.819  17.073  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:      -6.3      2.453      7.234
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.587  -2.065  25.982  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       8.540  -0.856  26.032  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       8.963  -0.403  27.096  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       8.849  -0.310  24.814  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       8.473  -0.697  23.951  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       9.655   0.896  24.663  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3      11.142   0.572  24.629  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       9.216   1.575  23.352  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       8.359   0.835  22.580  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       8.053  -0.085  22.876  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       9.604   2.703  23.051  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       7.875   1.286  21.276  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       6.538   1.980  21.519  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       6.430   3.154  21.879  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       7.708   0.107  20.319  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       7.320   0.550  18.910  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       6.005  -0.045  18.402  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       4.984   0.625  18.723  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       6.094  -1.121  17.752  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       6.080  -2.345  24.024  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       7.342  -2.331  24.565  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       8.156  -2.542  23.996  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       5.069  -2.104  24.682  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       6.028  -2.690  22.518  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       7.404  -2.906  22.022  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       7.406  -3.782  21.493  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       7.573  -2.201  21.298  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       5.154  -3.937  22.306  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       5.685  -5.232  22.954  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       4.565  -5.909  23.747  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       6.253  -6.208  21.924  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       8.205  -3.297  26.657  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       7.831  -4.616  25.983  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       8.943  -5.067  25.065  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       8.974  -4.810  23.867  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       9.967  -5.732  25.674  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       9.825  -6.209  26.554  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      10.665  -6.122  25.054  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:      -6.3      2.280      6.754
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       7.352  -0.131  21.202  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       6.774   1.129  21.873  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       6.630   2.187  21.258  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       6.467   0.991  23.201  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       6.610   0.108  23.687  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       6.002   2.097  24.031  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       5.031   1.620  25.102  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       7.246   2.739  24.671  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       8.144   3.268  23.781  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.974   3.226  22.782  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       7.393   2.780  25.892  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       9.411   3.870  24.193  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       9.288   5.370  23.939  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       8.597   5.859  23.043  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4      10.579   3.280  23.405  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4      10.288   1.871  22.896  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4      10.366   0.784  23.971  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       9.298   0.124  24.106  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4      11.457   0.692  24.593  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       6.719  -2.411  21.963  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       6.375  -1.195  21.427  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       5.421  -1.005  21.134  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       7.863  -2.684  22.322  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       5.551  -3.418  22.081  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       5.848  -4.605  21.252  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       5.306  -5.387  21.627  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       5.415  -4.445  20.337  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       5.349  -3.801  23.556  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       5.904  -5.183  23.960  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       7.162  -5.005  24.814  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       4.877  -6.024  24.719  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2       7.571   0.082  19.698  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2       6.340  -0.230  18.850  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2       5.851   1.021  18.159  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       6.294   1.416  17.086  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2       4.819   1.663  18.777  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2       4.655   1.547  19.769  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2       4.552   2.553  18.375  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:      -6.3      2.298      5.112
+REMARK  Name = LQAE-mmff94.pdb
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _2
+REMARK    2  A    between atoms: _2  and  _3
+REMARK    3  A    between atoms: _2  and  _5
+REMARK    4  A    between atoms: _5  and  _6
+REMARK    5  A    between atoms: _6  and  _7
+REMARK    6  A    between atoms: _6  and  _8
+REMARK    7  A    between atoms: _20  and  _21
+REMARK    8  A    between atoms: _21  and  _22
+REMARK    9  A    between atoms: _21  and  _24
+REMARK   10  A    between atoms: _24  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _37  and  _38
+REMARK   13  A    between atoms: _38  and  _39
+REMARK   14  A    between atoms: _38  and  _41
+REMARK   15  A    between atoms: _47  and  _48
+REMARK   16  A    between atoms: _48  and  _49
+REMARK   17  A    between atoms: _48  and  _51
+REMARK   18  A    between atoms: _51  and  _52
+REMARK   19  A    between atoms: _52  and  _53
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   2       9.592  -1.041  24.038  0.00  0.00    +0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   GLN A   2       9.130  -2.266  24.851  0.00  0.00    +0.234 C 
+ATOM      3  O   GLN A   2       8.554  -2.149  25.933  0.00  0.00    -0.274 OA
+ATOM      4  N   ALA A   3       9.437  -3.480  24.297  0.00  0.00    -0.303 N 
+ATOM      5  H   ALA A   3       9.926  -3.546  23.406  0.00  0.00    +0.149 HD
+BRANCH   4   6
+ATOM      6  CA  ALA A   3       9.170  -4.751  24.962  0.00  0.00    +0.156 C 
+ATOM      7  CB  ALA A   3       9.472  -4.673  26.453  0.00  0.00    +0.038 C 
+BRANCH   6   8
+ATOM      8  C   ALA A   3       7.686  -5.086  24.724  0.00  0.00    +0.234 C 
+ATOM      9  N   GLU A   4       7.279  -5.001  23.419  0.00  0.00    -0.304 N 
+ATOM     10  H   GLU A   4       7.928  -4.735  22.686  0.00  0.00    +0.149 HD
+ATOM     11  O   ALA A   3       6.946  -5.420  25.649  0.00  0.00    -0.274 OA
+BRANCH   9  12
+ATOM     12  CA  GLU A   4       5.896  -5.227  23.002  0.00  0.00    +0.136 C 
+BRANCH  12  13
+ATOM     13  C   GLU A   4       5.955  -5.960  21.665  0.00  0.00    +0.245 C 
+ATOM     14  O   GLU A   4       5.955  -5.392  20.571  0.00  0.00    -0.299 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  GLU A   4       5.144  -3.905  22.863  0.00  0.00    +0.035 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A   4       4.454  -3.486  24.159  0.00  0.00    +0.054 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A   4       5.187  -2.391  24.937  0.00  0.00    +0.042 C 
+ATOM     18  OE2 GLU A   4       5.679  -1.487  24.204  0.00  0.00    -0.550 OA
+ATOM     19  OE1 GLU A   4       5.227  -2.527  26.189  0.00  0.00    -0.550 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  12
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     20  C   LEU A   1       8.403  -0.574  21.904  0.00  0.00    +0.230 C 
+ATOM     21  N   GLN A   2       8.425  -0.596  23.277  0.00  0.00    -0.303 N 
+ATOM     22  H   GLN A   2       7.630  -0.267  23.817  0.00  0.00    +0.149 HD
+ATOM     23  O   LEU A   1       9.348  -0.955  21.215  0.00  0.00    -0.274 OA
+BRANCH  20  24
+ATOM     24  CA  LEU A   1       7.094  -0.029  21.288  0.00  0.00    +0.138 C 
+BRANCH  24  25
+ATOM     25  N   LEU A   1       6.442   0.877  22.258  0.00  0.00    -0.320 NA
+ATOM     26  H1  LEU A   1       5.885   0.298  22.893  0.00  0.00    +0.119 HD
+ATOM     27  H2  LEU A   1       7.180   1.240  22.869  0.00  0.00    +0.119 HD
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  LEU A   1       7.409   0.697  19.970  0.00  0.00    +0.031 C 
+BRANCH  28  29
+ATOM     29  CG  LEU A   1       6.419   0.429  18.818  0.00  0.00    -0.015 C 
+ATOM     30  CD2 LEU A   1       5.956  -1.030  18.863  0.00  0.00    +0.007 C 
+ATOM     31  CD1 LEU A   1       5.207   1.359  18.863  0.00  0.00    +0.007 C 
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  20  24
+ENDBRANCH   1  21
+BRANCH   1  32
+ATOM     32  CB  GLN A   2      10.094   0.085  24.951  0.00  0.00    +0.041 C 
+BRANCH  32  33
+ATOM     33  CG  GLN A   2      10.937   1.131  24.226  0.00  0.00    +0.098 C 
+BRANCH  33  34
+ATOM     34  CD  GLN A   2      10.060   2.261  23.738  0.00  0.00    +0.211 C 
+ATOM     35  OE1 GLN A   2       8.856   2.326  23.960  0.00  0.00    -0.276 OA
+ATOM     36  NE2 GLN A   2      10.712   3.261  23.080  0.00  0.00    -0.329 N 
+ATOM     37 HE21 GLN A   2      11.602   3.092  22.628  0.00  0.00    +0.145 HD
+ATOM     38 HE22 GLN A   2      10.122   3.971  22.664  0.00  0.00    +0.145 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 16
+ENDMDL
