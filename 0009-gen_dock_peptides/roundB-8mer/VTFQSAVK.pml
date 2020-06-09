@@ -1,0 +1,2 @@
+fab VTFQSAVK, VTFQSAVK
+save VTFQSAVK-pymol.pdb, VTFQSAVK

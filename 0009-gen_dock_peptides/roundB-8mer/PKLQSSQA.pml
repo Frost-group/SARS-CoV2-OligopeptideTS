@@ -1,0 +1,2 @@
+fab PKLQSSQA, PKLQSSQA
+save PKLQSSQA-pymol.pdb, PKLQSSQA

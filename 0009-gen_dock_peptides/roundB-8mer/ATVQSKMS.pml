@@ -1,0 +1,2 @@
+fab ATVQSKMS, ATVQSKMS
+save ATVQSKMS-pymol.pdb, ATVQSKMS

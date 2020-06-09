@@ -1,0 +1,2 @@
+fab TVLQAVGA, TVLQAVGA
+save TVLQAVGA-pymol.pdb, TVLQAVGA

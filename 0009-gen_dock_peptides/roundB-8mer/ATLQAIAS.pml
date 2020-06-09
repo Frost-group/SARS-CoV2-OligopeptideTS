@@ -1,0 +1,2 @@
+fab ATLQAIAS, ATLQAIAS
+save ATLQAIAS-pymol.pdb, ATLQAIAS

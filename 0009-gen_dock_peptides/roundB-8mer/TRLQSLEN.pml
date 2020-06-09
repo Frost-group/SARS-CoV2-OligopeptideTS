@@ -1,0 +1,2 @@
+fab TRLQSLEN, TRLQSLEN
+save TRLQSLEN-pymol.pdb, TRLQSLEN

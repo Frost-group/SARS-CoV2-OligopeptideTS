@@ -1,0 +1,2 @@
+fab AVLQSGFR, AVLQSGFR
+save AVLQSGFR-pymol.pdb, AVLQSGFR

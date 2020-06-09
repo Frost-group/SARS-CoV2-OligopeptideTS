@@ -1,0 +1,2 @@
+fab VRLQAGNA, VRLQAGNA
+save VRLQAGNA-pymol.pdb, VRLQAGNA

@@ -1,0 +1,2 @@
+fab ATLQAENV, ATLQAENV
+save ATLQAENV-pymol.pdb, ATLQAENV

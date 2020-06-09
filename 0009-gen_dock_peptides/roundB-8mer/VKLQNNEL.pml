@@ -1,0 +1,2 @@
+fab VKLQNNEL, VKLQNNEL
+save VKLQNNEL-pymol.pdb, VKLQNNEL
