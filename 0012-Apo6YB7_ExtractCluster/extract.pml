@@ -17,10 +17,27 @@ h_add cluster-tetrad
 save cluster-tetrad-h.pdb, cluster-tetrad
 
 
-create TenA, %t and byres (all within 10.0 of resi 41) and not hetatm
+create TenA, %t and byres (all within 10.0 of resi 145) and not hetatm
 save TenA.pdb, TenA
 h_add TenA
 save TenA-h.pdb, TenA
+
+create EightA, %t and byres (all within 8.0 of resi 145) and not hetatm
+save EightA.pdb, EightA
+h_add EightA
+save EightA-h.pdb, EightA
+
+create SixA, %t and byres (all within 6.0 of resi 145) and not hetatm
+save SixA.pdb, SixA
+h_add SixA
+save SixA-h.pdb, SixA
+
+create FourA, %t and byres (all within 4.0 of resi 145) and not hetatm
+save FourA.pdb, FourA
+h_add FourA
+save FourA-h.pdb, FourA
+
+
 
 # no ligand any more to reference by
 
