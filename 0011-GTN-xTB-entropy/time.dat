@@ -1,0 +1,14 @@
+> time . cmds.sh
+normal termination of xtb
+normal termination of xtb
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is cluster-tetrad-h.pdb)
+
+1 molecule converted
+normal termination of xtb
+
+real    3m20.108s
+user    19m55.008s
+sys     0m1.510s
+
